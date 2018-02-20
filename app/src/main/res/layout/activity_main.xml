@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:context="com.mohammedfahadkaleem.ultimatetoast.MainActivity">
+
+        <Button
+            android:id="@+id/btn_basic_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BASIC TOAST" />
+
+        <Button
+            android:id="@+id/btn_basic_toast_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BASIC W/ Duration" />
+
+        <Button
+            android:id="@+id/btn_basic_toast_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BASIC W/ ICON" />
+        <Button
+            android:id="@+id/btn_basic_toast_icon_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BASIC W/ ICON AND DURATION" />
+        <Button
+            android:id="@+id/btn_success_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Success Toast" />
+        <Button
+            android:id="@+id/btn_error_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Error Toast" />
+        <Button
+            android:id="@+id/btn_warning_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warning Toast" />
+
+        <Button
+            android:id="@+id/btn_custom_icon_background_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Toast w/ Icon" />
+        <Button
+            android:id="@+id/btn_custom_two_icons_background_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Toast with two icons" />
+
+
+    </LinearLayout>
+</ScrollView>
